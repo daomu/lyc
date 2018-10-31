@@ -1,4 +1,4 @@
-package com.lyc0.lyc;
+package com.lyc0.lycwx;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.lyc0.lyc;
+package com.lyc0;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
