@@ -14,8 +14,7 @@ public class LoginController {
     private LoginManager loginManager;
 
     @RequestMapping("/login")
-    public String login(String code) {
-        loginManager.login(code);
-        return "login success:"+code;
+    public String login(String code, String encryptedData, String iv) {
+        return loginManager.login(code, encryptedData, iv);
     }
 }
